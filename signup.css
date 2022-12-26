@@ -1,0 +1,43 @@
+*
+{
+ padding:0px;
+ margin:0px;
+ }
+#header
+{
+ width:50%;
+}
+#header img
+{
+ width:640px;
+ height:95%;
+ }
+#form
+{
+ position:absolute;
+ width:50%;
+ right:0px;
+ top:0px;
+}
+#form th
+{
+ text-align:left;
+ }
+ a:link
+ {
+ text-decoration:none;
+ color:black;
+ }
+ a:visited
+ {
+ text-decoration:none;
+ color:black;
+ }
+ a
+ {
+  width:50px;
+  background-color:#DB7AF6;
+  border:2px groove black;
+  border-radius:8px;
+  }
+  

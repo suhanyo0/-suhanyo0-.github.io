@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*
+{
+ padding:0px;
+ margin=0px;
+ }
+ a:link {
+  color:black;
+  }
+  a:visited
+  {
+   color:black;
+   }
+  a
+  {
+   text-decoration:none;
+   background-color:white;
+   }
+   #footer
+   {
+    background-color:black;
+	color:white;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	left:0px;
+	text-align:center;
+	}
+</style>
+</head>
+<body 
+style="background-image: url('logon.jpg'); background-size: 100% 210%; background-repeat: no-repeat;">
+   <div>
+   <div>
+    <h2>Create Your Account</h2>
+   </div>
+   <div class="login">
+   <form method="post" name="myform" onsubmit="return validation()">
+    <table cellspacing="12" align="left" cellpadding="10" border="0">
+     <tr>
+      <td>Enter First Name :</td>
+      <td><input type="text" name="fname" placeholder="First Name"></td>
+     </tr>
+	 <tr>
+      <td>Enter Last Name :</td>
+      <td><input type="text" name="lname" placeholder="Last Name"></td>
+     </tr>
+      <tr>
+       <td>Enter Email ID :</td>
+       <td><input type="text" name="emailid" placeholder="example@abc.com"></td>
+      </tr>
+        <tr>
+         <td>Enter Username :</td>
+          <td><input type="text" name="username" placeholder="Username"></td>
+        </tr>
+         <tr>
+          <td>Enter Password :</td>
+           <td><input type="password" name="password" placeholder="Password"></td>
+         </tr>
+          <tr>
+            <td>Confirm Password :</td>
+              <td><input type="password" name="confirmpassword" placeholder="Confirm Password"></td>
+          </tr>
+               <tr>
+                <td></td>
+                  <td>
+                 <input type="reset" value="Reset">
+               <a href="home.html">Create Account</a></td>
+               </tr>	   
+        </table>
+	</form>
+    </div>
+     </div>
+	 <div id="footer">
+	  ©:Suhani Singh, Jahnvi Singh, Medhavi Chitranshi
+	 </div>
+ </body>
+  </html>
